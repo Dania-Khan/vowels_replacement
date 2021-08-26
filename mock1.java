@@ -7,6 +7,8 @@ public class Main
     int count = 0;
     String inp = sc.next ();
     inp = inp.replaceAll ("[aeiouAEIOU]", "#");
+    //OR
+    //inp = inp.replaceAll ("(?i)[aeiou]", "#");
     for (int i = 0; i < inp.length (); i++)
       {
 	char c = inp.charAt (i);
