@@ -6,7 +6,7 @@ public class Main
     Scanner sc = new Scanner (System.in);
     int count = 0;
     String inp = sc.next ();
-      inp = inp.replaceAll ("[aeiouAEIOU]", "#");
+    inp = inp.replaceAll ("[aeiouAEIOU]", "#");
     for (int i = 0; i < inp.length (); i++)
       {
 	char c = inp.charAt (i);
